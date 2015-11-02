@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/flpms/4square#readme",
   "devDependencies": {
+    "chai": "^3.4.0",
     "mocha": "*"
   },
   "dependencies": {
