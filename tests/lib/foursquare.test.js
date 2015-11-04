@@ -33,8 +33,6 @@ describe('Test for Foursquare Wrapper', function() {
 
         this.timeout(30000);
 
-        oauthInfo.needToken = false;
-
         var foursquare = Foursquare.init(oauthInfo);
 
         var callback = function(err, sucess) {
@@ -61,8 +59,6 @@ describe('Test for Foursquare Wrapper', function() {
 
     it('Expected a error when search for venue from foursquare', function(done) {
 
-        oauthInfo.needToken = false;
-
         var foursquare = Foursquare.init(oauthInfo);
 
         var callback = function(err, sucess) {
@@ -78,8 +74,6 @@ describe('Test for Foursquare Wrapper', function() {
     });
 
     it('Expected a sucess when search for venue from foursquare', function(done) {
-
-        oauthInfo.needToken = true;
 
         var foursquare = Foursquare.init(oauthInfo);
 
